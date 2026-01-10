@@ -7,13 +7,16 @@
  *{
     margin:0;
     padding:0;
-    box-sizing
  }
  
-
-header{
+header {
     background-color:#FFF8F3;
+    background: url("../images/developer.png") ,url("../images/header_bg.png") ,#FFF8F3;
+    background-position:top left,bottom right;
+    background-repeat:no-repeat;
+    back
     padding-top:50px;
+
 }
 nav{
     width:71.25%;
@@ -26,14 +29,13 @@ nav{
 }
 .logo h2{
     font-size:45px;
-    font-weight:900px;
-    text-shadow: ;
+    font-weight:900;
 }
 .navber{
     list-style:none;
     display:flex;
     align-items: center;
-gap:51px
+    gap:51px;
 }
 nav .navber a{
     text-decoration:none;
@@ -41,7 +43,6 @@ nav .navber a{
     color:#474747;
 }
 .btn1{
-    width:;
     background-color:#FD6E0A;
     padding:18px 35px;
     color:white;
@@ -49,5 +50,49 @@ nav .navber a{
     border-radius:5px;
     font-size:20px;
     font-weight:bold;
+    cursor:pointer;
+}
+#banner {
+    margin:47px 38px 0px 230px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content h2{
+    color:#474747;
+    font-size:45px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight:bold;
+    margin-bottom:20px;
+
+}
+.banner-content{
+    width:585px;
+    height:262px;
+    margin-bottom:40px;
+}
+.banner-content p{
+    margin-bottom: 20px;
+    font-size:18px;
+    color:#757575;
     
+}
+.btn2 , .btn3{
+background-color: #FD6E0A;
+border:none;
+color: white;
+font-size:20px;
+padding:18px 17px;
+border-radius:5px;
+
+}
+#banner .banner-image img{
+    width:584px;
+    height:674px;
+    vertical-align:middle ;
+
 }
